@@ -37,18 +37,6 @@ A sophisticated Retrieval-Augmented Generation (RAG) system that brings your doc
 pip install -r requirements.txt
 ```
 
-### Environment Setup
-
-Create a `.env` file in your project root:
-
-```env
-# OpenAI Configuration
-OPENAI_API_KEY=your_openai_api_key_here
-
-# Qdrant Vector Database
-QDRANT_URL=your_qdrant_url_here
-QDRANT_API_KEY=your_qdrant_api_key_here
-
 ### Installation & Setup
 
 1. **Clone the repository**
@@ -59,6 +47,11 @@ QDRANT_API_KEY=your_qdrant_api_key_here
 
 2. **Install dependencies**
    ```bash
+   python3.11 -m venv .venv
+   # On macOS/Linux:
+   source .venv/bin/activate
+   # On Windows:
+   .venv\Scripts\activate
    pip install -r requirements.txt
    ```
 
