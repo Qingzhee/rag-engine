@@ -88,15 +88,15 @@ QDRANT_API_KEY=your_qdrant_api_key_here
 
 ```
 advanced-rag-system/
-├── app.py                    # Chainlit web interface
+├── ui.py                    # Chainlit web interface
 ├── rag_chain.py             # Core RAG implementation
-├── ingest_documents.py      # Document processing and ingestion
+├── ingest.py                # Document processing and ingestion
 ├── config.py                # Configuration management
 ├── requirements.txt         # Python dependencies
 ├── .env                     # Environment variables
 ├── data/                    # Your documents folder
-├── processed_files.json    # Processing log (auto-generated)
-└── README.md               # This file
+├── processed_files.json     # Processing log (auto-generated)
+└── README.md                # This file
 ```
 
 ## Core Components
