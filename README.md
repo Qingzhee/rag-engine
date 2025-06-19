@@ -49,20 +49,11 @@ OPENAI_API_KEY=your_openai_api_key_here
 QDRANT_URL=your_qdrant_url_here
 QDRANT_API_KEY=your_qdrant_api_key_here
 
-# Optional: Model Configuration
-RAG_COLLECTION_NAME=my_documents
-RAG_LLM_MODEL=gpt-3.5-turbo
-RAG_TEMPERATURE=0.1
-RAG_MAX_TOKENS=1000
-RAG_CHUNK_SIZE=800
-RAG_CHUNK_OVERLAP=100
-```
-
 ### Installation & Setup
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Qingzhee/rag-engine
    cd advanced-rag-system
    ```
 
