@@ -63,7 +63,6 @@ pip install -r requirements.txt
 
 4. **Prepare your documents**
    ```bash
-   mkdir data
    # Copy your PDF, TXT, MD, or DOCX files to the data folder
    ```
 
